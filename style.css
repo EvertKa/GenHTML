@@ -1,0 +1,31 @@
+.button{
+margin-top: 20px;
+height: 30px;
+width: 100px;
+margin-bottom: 50px;
+margin-left: 20px;
+}
+
+a {  
+text-decoration: none;
+color: red;
+margin-left: 20px;
+font-size: 20px;
+}
+
+.troll {
+    height: 500px;
+    width: 600px;
+    margin-left: 620px;
+    margin-top: 200px
+}
+
+.email {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.wrapper {
+    margin-top: 50px;
+    margin-left: 20px;
+}
