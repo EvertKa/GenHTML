@@ -22,7 +22,7 @@
                 <label for="Email">Email:</label>
                 <input type="Email" name="Email" id="Email">
             </div>
-
+           <!--  Mitme vastusevarjandiga kusimus -->
             <div class="wrapper">
                   <div>
                     <label for="linn">Milline neist on koige vaiksema populatsiooniga linn</label>
@@ -35,5 +35,47 @@
                   </div>
                   <button>Salvesta</button>
               </div>
-</body>
+             <!--  Lahter mis on kohustatud ara taitma -->
+              <div class="required">
+                <form>
+                  <div>
+                    <label for="name">Name required</label>
+                    <input required type="name" id="name" name="name">
+                  </div>
+                  <button>Salvesta</button>
+                </form>
+              </div>
+              <!-- märkeruut -->
+              <div class="checkbox">
+                <form>
+                  <div>
+                    <input type="checkbox" id="updates" name="updates" value="kristjan">
+                    <label for="updates">Get a notification when Kristjan uploads a new tutorial</label>
+                  </div>
+                  <button>Salvesta satted</button>
+                </form>
+              </div>
+              <!-- grupeerimine -->
+              <div class="grouping">
+              <fieldset>
+                <legend>Milline neist on sinu lemmik automark?</legend>
+
+                <label for="Mercedes-Benz">Mercedes-Benz</label>
+                <input type="radio" id="car" value="car" name="car">
+
+                <label for="Subaru">Subaru</label>
+                <input type="radio" id="car" value="car" name="car">
+
+                <label for="Mingiteine">Mingi teine</label>
+                <input type="radio" id="car" value="car" name="car">
+              </fieldset>
+                </div>
+                <!-- Captioniga pilt -->
+                <div class="figure">
+                  <figure>
+                    <img class="vants" src="v2nts.jpg" alt="">
+                    <figcaption>Pilt. - Vants, Upa, Saaremaa</figcaption>
+                  </figure>
+                </div>
+</body>   
 </html>

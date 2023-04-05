@@ -29,3 +29,27 @@ font-size: 20px;
     margin-top: 50px;
     margin-left: 20px;
 }
+
+.required {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.checkbox {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.grouping{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.figure {
+    margin-top: 50px;
+}
+
+.vants {
+    height: 300px;
+    width: 300px;
+}
